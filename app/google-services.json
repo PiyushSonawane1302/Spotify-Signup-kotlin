@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38816644011",
+    "project_id": "spotify-signup",
+    "storage_bucket": "spotify-signup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38816644011:android:7eda4a0d995e82bf6070ee",
+        "android_client_info": {
+          "package_name": "com.example.spotifysignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38816644011-tvgqb4ijadrii8hukrpar940p2f2f68c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0lX6kyHJbKTfHK96MJMm3XeimqunIPnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38816644011-tvgqb4ijadrii8hukrpar940p2f2f68c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
