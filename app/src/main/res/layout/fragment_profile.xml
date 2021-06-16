@@ -7,16 +7,18 @@
     android:id="@+id/profile_fragment"
     android:background="@drawable/ic_gradient">
 
-    <ImageView
+    <Button
         android:id="@+id/signOut_btn"
-        android:layout_width="37dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="36dp"
-        android:src="@drawable/ic_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_stroke"
+        android:text="Logout"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.785" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
