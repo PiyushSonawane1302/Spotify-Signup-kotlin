@@ -37,8 +37,13 @@ class SpotifyHome : AppCompatActivity() {
         supportActionBar?.hide()
 
         window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-        window.attributes.layoutInDisplayCutoutMode =
-            WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
+        if (Build.VERSION.SDK_INT >= 29){
+            window.attributes.layoutInDisplayCutoutMode =
+                WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES
+        } else{
+
+        }
+
 
         bottom_nav.setOnNavigationItemSelectedListener(navigationItemSelectedListener)
         supportFragmentManager.beginTransaction().replace(R.id.fragment_Container, HomeFragment())
